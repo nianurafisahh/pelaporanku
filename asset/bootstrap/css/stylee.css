@@ -1,0 +1,44 @@
+#form {
+			height: 45px;
+			border-radius: 30px; 
+			width: 100%;
+			border: none;
+			background: #eeeeee;
+		}
+
+		#btn {
+			height: 45px;
+			width: 100%;
+			border: none;
+			background: #2ecc71;
+			color: #fff;
+			border-radius: 30px;
+		}
+
+		#btn:hover{
+			background: #90EE90;
+			border: none;
+		}
+
+		#thumbnail {
+			height: 335px;
+			justify-content: center;
+			margin-top: 80px;
+		}
+
+		#row {
+			margin-top: 50px;
+		}
+
+		@media screen and (max-width: 900px){
+			#img {
+				display: none;
+			}
+
+			#row {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+
+		}
+
